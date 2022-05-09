@@ -1,0 +1,22 @@
+
+Source path	: C:\Users\rreddyk\Desktop\rreddyk-autopsy\C1Prj03.E01
+Source type	: storage media image
+Processing time	: 00:00:00
+
+Processing started.
+Worker_00 (PID: 7116) - events produced: 58 - file: TSK:/Greek/Y2003Q1R.pdf - running: True
+Worker_01 (PID: 4440) - events produced: 13 - file: TSK:/English/ddd.dat - running: True
+Worker_00 (PID: 7116) - events produced: 88 - file: TSK:/Pictures/House/elmer.AVI - running: True
+Worker_01 (PID: 4440) - events produced: 112 - file: TSK:/RECYCLER/S-1-5-21-746137067-1580818891-854245398-1000/Dg12 - running: True
+Worker_00 (PID: 7116) - events produced: 201 - file: TSK:/Pictures/Vacations/Trip3/DSCF0697.JPG - running: True
+Worker_01 (PID: 4440) - events produced: 238 - file: TSK:/English/Rights/The Declaration of Independence of the Thirteen Colonies - National Constitution Center_files/tell_a_friend.gif - running: True
+Worker_00 (PID: 7116) - events produced: 267 - file: TSK:/Pictures/Vacations/Trip3/TripA2.tif - running: True
+Worker_01 (PID: 4440) - events produced: 307 - file: TSK:/Pictures/Vacations/Trip3/DSCF0770.AVI - running: True
+Worker_00 (PID: 7116) - events produced: 368 - file: TSK:/Pictures/Vacations/Trip3/data1/data2/data3/data4/lightbar1.gif - running: True
+Worker_01 (PID: 4440) - events produced: 341 - file: TSK:/English/Rights/Economic Indicators_gov_files/mainpage_files/ei.css - running: True
+Worker_00 (PID: 7116) - events produced: 368 - file: TSK:/Pictures/Vacations/Trip3/data1/data2/data3/data4/lightbar1.gif - running: True
+Worker_01 (PID: 4440) - events produced: 341 - file: TSK:/English/Rights/Economic Indicators_gov_files/mainpage_files/ei.css - running: True
+Worker_00 (PID: 7116) - events produced: 401 - file: TSK:/Pictures/Vacations/Trip3/data1/data2/data3/data4/cash3.gif - running: True
+Worker_01 (PID: 4440) - events produced: 416 - file: TSK:/Pictures/Vacations/Trip3/data1/data2/data3/data4/Chart_Up_3.jpg - running: True
+Processing completed.
+
