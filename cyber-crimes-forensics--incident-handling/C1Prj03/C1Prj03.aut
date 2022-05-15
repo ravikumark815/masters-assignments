@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutopsyCase>
+  <SchemaVersion>5.0</SchemaVersion>
+  <CreatedDate>2022/04/21 21:00:54 (PDT)</CreatedDate>
+  <ModifiedDate>2022/04/21 21:00:57 (PDT)</ModifiedDate>
+  <CreatedByAutopsyVersion>4.19.3</CreatedByAutopsyVersion>
+  <SavedByAutopsyVersion>4.19.3</SavedByAutopsyVersion>
+  <Case>
+    <Name>c1prj03_20220421_210054</Name>
+    <DisplayName>C1Prj03</DisplayName>
+    <Number>C1Prj03</Number>
+    <Examiner>K Ravi Kumar Reddy</Examiner>
+    <ExaminerPhone/>
+    <ExaminerEmail>2020mt13010@wilp.bits-pilani.ac.in</ExaminerEmail>
+    <CaseNotes>Assignment1 - Cybercrimes, Forensics and Incident Handling</CaseNotes>
+    <CaseType>Single-user case</CaseType>
+    <Database/>
+    <CaseDatabase>autopsy.db</CaseDatabase>
+    <TextIndex/>
+  </Case>
+  <OriginalCase/>
+</AutopsyCase>

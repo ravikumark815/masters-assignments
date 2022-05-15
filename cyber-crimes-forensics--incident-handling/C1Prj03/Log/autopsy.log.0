@@ -1,0 +1,473 @@
+2022-04-21 21:00:57.992 org.sleuthkit.autopsy.centralrepository.datamodel.RdbmsCentralRepo upgradeSchema
+INFO: Central Repository is up to date
+2022-04-21 21:00:58.015 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Starting local Solr SOLR8 server
+2022-04-21 21:00:58.024 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2022-04-21 21:00:58.024 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Local Solr SOLR8 server is already running
+2022-04-21 21:00:58.029 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2022-04-21 21:00:58.508 org.sleuthkit.autopsy.keywordsearch.Server$Collection <init>
+INFO: Using Solr document queue size = 30
+2022-04-21 21:00:58.568 org.sleuthkit.autopsy.imagegallery.PerCaseProperties getConfigSetting
+INFO: File did not exist. Created file [Image Gallery.properties]
+2022-04-21 21:00:58.576 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB setPragmas
+INFO: sqlite-jdbc version 3.25.2 loaded in native mode
+2022-04-21 21:00:58.621 org.sleuthkit.autopsy.casemodule.Case openAsCurrentCase
+INFO: Opened C1Prj03 (c1prj03_20220421_210054) in C:\Users\rreddyk\Desktop\rreddyk-autopsy\C1Prj03 as the current case
+2022-04-21 21:00:58.669 org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMonitoredRootDirectory
+INFO: Monitoring disk space of C:\
+2022-04-21 21:00:58.696 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Central Repository, version = 4.19.3
+2022-04-21 21:00:58.696 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.19.3
+2022-04-21 21:00:58.696 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = DJI Drone Analyzer, version = 4.19.3
+2022-04-21 21:00:58.696 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.19.3
+2022-04-21 21:00:58.697 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.19.3
+2022-04-21 21:00:58.697 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.19.3
+2022-04-21 21:00:58.697 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.19.3
+2022-04-21 21:00:58.697 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.19.3
+2022-04-21 21:00:58.697 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.19.3
+2022-04-21 21:00:58.697 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Android Analyzer (aLEAPP), version = 4.19.3
+2022-04-21 21:00:58.697 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = iOS Analyzer (iLEAPP), version = 4.19.3
+2022-04-21 21:00:58.697 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2022-04-21 21:00:58.698 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Picture Analyzer, version = 4.19.3
+2022-04-21 21:00:58.698 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Plaso, version = 4.19.3
+2022-04-21 21:00:58.698 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.19.3
+2022-04-21 21:00:58.698 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = YARA Analyzer, version = 4.19.3
+2022-04-21 21:00:58.698 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.19.3
+2022-04-21 21:00:58.699 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.19.3
+2022-04-21 21:00:58.699 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.19.3
+2022-04-21 21:00:58.824 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = GPX Parser, version = 1.2
+2022-04-21 21:00:58.825 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.19.3
+2022-04-21 21:01:49.443 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+INFO: Starting ingest job 1
+2022-04-21 21:01:49.451 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer loadConfigFile
+INFO: Load successful
+2022-04-21 21:01:49.855 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2022-04-21 21:01:49.94 org.sleuthkit.autopsy.modules.yara.YaraIngestModule startUp
+INFO: YARA ingest module: No rule set was selected for this ingest job.
+2022-04-21 21:01:50.133 org.sleuthkit.autopsy.ingest.IngestJobPipeline logInfoMessage
+INFO: Starting first stage analysis in streaming mode (data source = C1Prj03.E01, objId = 1, pipeline id = 1, ingest job id = 1)
+2022-04-21 21:01:50.328 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner startJob
+INFO: Adding job 1
+2022-04-21 21:01:50.328 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner startJob
+INFO: Resetting periodic search time out to default value
+2022-04-21 21:01:50.696 org.sleuthkit.autopsy.ingest.IngestJobPipeline logInfoMessage
+INFO: Starting full first stage analysis in streaming mode (data source = C1Prj03.E01, objId = 1, pipeline id = 1, ingest job id = 1)
+2022-04-21 21:01:50.698 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Recent Activity analysis of C1Prj03.E01 starting
+2022-04-21 21:01:50.715 org.sleuthkit.autopsy.recentactivity.RecentDocumentsByLnk getRecentDocuments
+INFO: Didn't find any recent files.
+2022-04-21 21:01:50.749 org.sleuthkit.autopsy.textextractors.TikaTextExtractor getReader
+WARNING: Error with file [id=6] bluebirds.mdb, see Tika log for details...
+2022-04-21 21:01:50.961 org.sleuthkit.autopsy.recentactivity.Chromium getHistory
+INFO: Could not find any allocated Chrome history files.
+2022-04-21 21:01:50.966 org.sleuthkit.autopsy.recentactivity.Chromium getBookmark
+INFO: Didn't find any Chrome bookmark files.
+2022-04-21 21:01:50.975 org.sleuthkit.autopsy.recentactivity.Chromium getCookie
+INFO: Didn't find any Chrome cookies files.
+2022-04-21 21:01:50.976 org.sleuthkit.autopsy.recentactivity.Chromium getLogins
+INFO: Didn't find any Chrome Login Data files.
+2022-04-21 21:01:50.977 org.sleuthkit.autopsy.recentactivity.Chromium getAutofill
+INFO: Didn't find any Chrome Web Data files.
+2022-04-21 21:01:50.978 org.sleuthkit.autopsy.recentactivity.Chromium getDownload
+INFO: Didn't find any Chrome download files.
+2022-04-21 21:01:50.979 org.sleuthkit.autopsy.recentactivity.Chromium getHistory
+INFO: Could not find any allocated Chrome history files.
+2022-04-21 21:01:50.98 org.sleuthkit.autopsy.recentactivity.Chromium getBookmark
+INFO: Didn't find any Chrome bookmark files.
+2022-04-21 21:01:50.981 org.sleuthkit.autopsy.recentactivity.Chromium getCookie
+INFO: Didn't find any Chrome cookies files.
+2022-04-21 21:01:50.982 org.sleuthkit.autopsy.recentactivity.Chromium getLogins
+INFO: Didn't find any Chrome Login Data files.
+2022-04-21 21:01:50.985 org.sleuthkit.autopsy.recentactivity.Chromium getAutofill
+INFO: Didn't find any Chrome Web Data files.
+2022-04-21 21:01:50.987 org.sleuthkit.autopsy.recentactivity.Chromium getDownload
+INFO: Didn't find any Chrome download files.
+2022-04-21 21:01:51.005 org.sleuthkit.autopsy.recentactivity.Chromium getHistory
+INFO: Could not find any allocated Chrome history files.
+2022-04-21 21:01:51.009 org.sleuthkit.autopsy.recentactivity.Chromium getBookmark
+INFO: Didn't find any Chrome bookmark files.
+2022-04-21 21:01:51.018 org.sleuthkit.autopsy.recentactivity.Chromium getCookie
+INFO: Didn't find any Chrome cookies files.
+2022-04-21 21:01:51.019 org.sleuthkit.autopsy.recentactivity.Chromium getLogins
+INFO: Didn't find any Chrome Login Data files.
+2022-04-21 21:01:51.019 org.sleuthkit.autopsy.recentactivity.Chromium getAutofill
+INFO: Didn't find any Chrome Web Data files.
+2022-04-21 21:01:51.02 org.sleuthkit.autopsy.recentactivity.Chromium getDownload
+INFO: Didn't find any Chrome download files.
+2022-04-21 21:01:51.021 org.sleuthkit.autopsy.recentactivity.Chromium getHistory
+INFO: Could not find any allocated Chrome history files.
+2022-04-21 21:01:51.022 org.sleuthkit.autopsy.recentactivity.Chromium getBookmark
+INFO: Didn't find any Chrome bookmark files.
+2022-04-21 21:01:51.023 org.sleuthkit.autopsy.recentactivity.Chromium getCookie
+INFO: Didn't find any Chrome cookies files.
+2022-04-21 21:01:51.023 org.sleuthkit.autopsy.recentactivity.Chromium getLogins
+INFO: Didn't find any Chrome Login Data files.
+2022-04-21 21:01:51.024 org.sleuthkit.autopsy.recentactivity.Chromium getAutofill
+INFO: Didn't find any Chrome Web Data files.
+2022-04-21 21:01:51.025 org.sleuthkit.autopsy.recentactivity.Chromium getDownload
+INFO: Didn't find any Chrome download files.
+2022-04-21 21:01:51.026 org.sleuthkit.autopsy.recentactivity.Chromium getHistory
+INFO: Could not find any allocated Chrome history files.
+2022-04-21 21:01:51.027 org.sleuthkit.autopsy.recentactivity.Chromium getBookmark
+INFO: Didn't find any Chrome bookmark files.
+2022-04-21 21:01:51.028 org.sleuthkit.autopsy.recentactivity.Chromium getCookie
+INFO: Didn't find any Chrome cookies files.
+2022-04-21 21:01:51.028 org.sleuthkit.autopsy.recentactivity.Chromium getLogins
+INFO: Didn't find any Chrome Login Data files.
+2022-04-21 21:01:51.029 org.sleuthkit.autopsy.recentactivity.Chromium getAutofill
+INFO: Didn't find any Chrome Web Data files.
+2022-04-21 21:01:51.03 org.sleuthkit.autopsy.recentactivity.Chromium getDownload
+INFO: Didn't find any Chrome download files.
+2022-04-21 21:01:51.032 org.sleuthkit.autopsy.recentactivity.Chromium getHistory
+INFO: Could not find any allocated Chrome history files.
+2022-04-21 21:01:51.033 org.sleuthkit.autopsy.recentactivity.Chromium getBookmark
+INFO: Didn't find any Chrome bookmark files.
+2022-04-21 21:01:51.034 org.sleuthkit.autopsy.recentactivity.Chromium getCookie
+INFO: Didn't find any Chrome cookies files.
+2022-04-21 21:01:51.035 org.sleuthkit.autopsy.recentactivity.Chromium getLogins
+INFO: Didn't find any Chrome Login Data files.
+2022-04-21 21:01:51.036 org.sleuthkit.autopsy.recentactivity.Chromium getAutofill
+INFO: Didn't find any Chrome Web Data files.
+2022-04-21 21:01:51.037 org.sleuthkit.autopsy.recentactivity.Chromium getDownload
+INFO: Didn't find any Chrome download files.
+2022-04-21 21:01:51.038 org.sleuthkit.autopsy.recentactivity.Chromium getHistory
+INFO: Could not find any allocated Chrome history files.
+2022-04-21 21:01:51.039 org.sleuthkit.autopsy.recentactivity.Chromium getBookmark
+INFO: Didn't find any Chrome bookmark files.
+2022-04-21 21:01:51.04 org.sleuthkit.autopsy.recentactivity.Chromium getCookie
+INFO: Didn't find any Chrome cookies files.
+2022-04-21 21:01:51.042 org.sleuthkit.autopsy.recentactivity.Chromium getLogins
+INFO: Didn't find any Chrome Login Data files.
+2022-04-21 21:01:51.043 org.sleuthkit.autopsy.recentactivity.Chromium getAutofill
+INFO: Didn't find any Chrome Web Data files.
+2022-04-21 21:01:51.044 org.sleuthkit.autopsy.recentactivity.Chromium getDownload
+INFO: Didn't find any Chrome download files.
+2022-04-21 21:01:51.046 org.sleuthkit.autopsy.recentactivity.Firefox getHistory
+INFO: No FireFox history files found.
+2022-04-21 21:01:51.049 org.sleuthkit.autopsy.recentactivity.Firefox getBookmark
+INFO: Didn't find any firefox bookmark files.
+2022-04-21 21:01:51.049 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadPreVersion24
+INFO: Didn't find any pre-version-24.0 Firefox download files.
+2022-04-21 21:01:51.05 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadVersion24
+INFO: Didn't find any version-24.0 Firefox download files.
+2022-04-21 21:01:51.051 org.sleuthkit.autopsy.recentactivity.Firefox getCookie
+INFO: Didn't find any Firefox cookie files.
+2022-04-21 21:01:51.051 org.sleuthkit.autopsy.recentactivity.Firefox getFormsHistory
+INFO: No FireFox form history files found.
+2022-04-21 21:01:51.054 org.sleuthkit.autopsy.recentactivity.Firefox getAutofillProfiles
+INFO: Didn't find any Firefox Autofill Profiles files.
+2022-04-21 21:01:51.056 org.sleuthkit.autopsy.recentactivity.ExtractIE getBookmark
+INFO: Didn't find any IE bookmark files.
+2022-04-21 21:01:51.058 org.sleuthkit.autopsy.recentactivity.ExtractIE getCookie
+INFO: Didn't find any IE cookies files.
+2022-04-21 21:01:51.058 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: Pasco results path: C:\Users\rreddyk\AppData\Local\Temp\Autopsy\c1prj03_20220421_210054\Temp\RecentActivity\IE_1\results
+2022-04-21 21:01:51.058 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: Pasco2 home: C:\Program Files\Autopsy-4.19.3\autopsy\pasco2
+2022-04-21 21:01:51.06 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: No InternetExplorer history files found.
+2022-04-21 21:01:51.07 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+INFO: Processing 0 blackboard artifacts.
+2022-04-21 21:01:51.07 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+INFO: Extracted 0 queries from the blackboard
+2022-04-21 21:01:51.071 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer process
+INFO: Search Engine stats: 
+Google : 0
+Yahoo : 0
+Twitter : 0
+LinkedIn : 0
+Facebook : 0
+Bing : 0
+Baidu : 0
+Sogou : 0
+Soso : 0
+Youdao : 0
+Yandex : 0
+Biglobe : 0
+Linkestan : 0
+Parseek : 0
+Parset : 0
+Amazon : 0
+DuckDuckGo : 0
+Youtube : 0
+Reddit : 0
+CCSearch : 0
+Swisscows : 0
+GIbiru : 0
+Wiki : 0
+Cutestat : 0
+Givewater : 0
+Ekoru : 0
+Ecosia : 0
+Slideshare : 0
+Wikipedia : 0
+Wiki : 0
+
+2022-04-21 21:01:51.071 org.sleuthkit.autopsy.recentactivity.ExtractWebAccountType extractDomainRoles
+INFO: Processing 0 blackboard artifacts.
+2022-04-21 21:01:51.072 org.sleuthkit.autopsy.recentactivity.ExtractWebAccountType$RoleProcessor createArtifacts
+INFO: Didn't find any web accounts.
+2022-04-21 21:01:51.28 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractImagesFromXls
+WARNING: Excel (.xls) document container could not be initialized. Reason: Block 1 not found
+2022-04-21 21:01:51.348 org.sleuthkit.autopsy.textextractors.TikaTextExtractor getReader
+WARNING: Error with file [id=9] Interview.xls, see Tika log for details...
+2022-04-21 21:01:51.776 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedContentFromPDF
+WARNING: Error attempting to extract attachments from PDFs for file Name: note to TR.txt ID: 11
+org.apache.tika.exception.TikaException: TIKA-198: Illegal IOException from org.apache.tika.parser.pdf.PDFParser@28252f35
+	org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:286)
+	org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)
+	org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)
+	org.sleuthkit.autopsy.modules.embeddedfileextractor.PDFAttachmentExtractor.extract(PDFAttachmentExtractor.java:94)
+	org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor.extractEmbeddedContentFromPDF(DocumentEmbeddedContentExtractor.java:544)
+	org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor.extractEmbeddedContent(DocumentEmbeddedContentExtractor.java:235)
+	org.sleuthkit.autopsy.modules.embeddedfileextractor.EmbeddedFileExtractorIngestModule.process(EmbeddedFileExtractorIngestModule.java:201)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.executeTask(FileIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.executeTask(FileIngestPipeline.java:180)
+	org.sleuthkit.autopsy.ingest.IngestTaskPipeline.executeTask(IngestTaskPipeline.java:220)
+	org.sleuthkit.autopsy.ingest.IngestJobPipeline.execute(IngestJobPipeline.java:1139)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:91)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1019)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+java.io.IOException: Missing root object specification in trailer.
+	org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:286)
+	org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)
+	org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)
+	org.sleuthkit.autopsy.modules.embeddedfileextractor.PDFAttachmentExtractor.extract(PDFAttachmentExtractor.java:94)
+	org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor.extractEmbeddedContentFromPDF(DocumentEmbeddedContentExtractor.java:544)
+	org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor.extractEmbeddedContent(DocumentEmbeddedContentExtractor.java:235)
+	org.sleuthkit.autopsy.modules.embeddedfileextractor.EmbeddedFileExtractorIngestModule.process(EmbeddedFileExtractorIngestModule.java:201)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.executeTask(FileIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.executeTask(FileIngestPipeline.java:180)
+	org.sleuthkit.autopsy.ingest.IngestTaskPipeline.executeTask(IngestTaskPipeline.java:220)
+	org.sleuthkit.autopsy.ingest.IngestJobPipeline.execute(IngestJobPipeline.java:1139)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:91)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1019)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2022-04-21 21:01:51.809 org.sleuthkit.autopsy.textextractors.TikaTextExtractor getReader
+WARNING: Error with file [id=11] note to TR.txt, see Tika log for details...
+2022-04-21 21:01:52.489 org.sleuthkit.autopsy.recentactivity.DomainCategoryRunner findDomainTypes
+INFO: Processing 0 blackboard artifacts.
+2022-04-21 21:01:52.489 org.sleuthkit.autopsy.recentactivity.DomainCategoryRunner findDomainTypes
+INFO: Extracted 0 distinct messaging domain(s) from the blackboard.  Of the 0 artifact(s) with valid hosts, 0 url(s) contained messaging domain suffix.
+2022-04-21 21:01:52.49 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer complete
+INFO: Search Engine URL Query Analyzer has completed.
+2022-04-21 21:01:52.49 org.sleuthkit.autopsy.recentactivity.DomainCategoryRunner complete
+INFO: Domain categorization completed.
+2022-04-21 21:01:52.49 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Recent Activity analysis of C1Prj03.E01 finished
+2022-04-21 21:01:52.491 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Android Analyzer analysis of C1Prj03.E01 starting
+2022-04-21 21:01:52.623 AndroidIngestModule process
+INFO: running 22 analyzers
+2022-04-21 21:01:52.66 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractImagesFromXls
+WARNING: Excel (.xls) document container could not be initialized. Reason: Block 25 not found
+2022-04-21 21:01:52.671 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Android Analyzer analysis of C1Prj03.E01 finished
+2022-04-21 21:01:52.672 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Encryption Detection analysis of C1Prj03.E01 starting
+2022-04-21 21:01:52.679 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Encryption Detection analysis of C1Prj03.E01 finished
+2022-04-21 21:01:52.679 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Virtual Machine Extractor analysis of C1Prj03.E01 starting
+2022-04-21 21:01:52.679 org.sleuthkit.autopsy.modules.vmextractor.VMExtractorIngestModule process
+INFO: Looking for virtual machine files in data source C1Prj03.E01
+2022-04-21 21:01:52.688 org.sleuthkit.autopsy.modules.vmextractor.VMExtractorIngestModule process
+INFO: No virtual machine files found in data source C1Prj03.E01
+2022-04-21 21:01:52.689 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Virtual Machine Extractor analysis of C1Prj03.E01 finished
+2022-04-21 21:01:52.689 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Android Analyzer (aLEAPP) analysis of C1Prj03.E01 starting
+2022-04-21 21:01:52.731 org.sleuthkit.autopsy.textextractors.TikaTextExtractor getReader
+WARNING: Error with file [id=13] Tracking Bluebirds.xls, see Tika log for details...
+2022-04-21 21:01:59.963 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromDoc
+WARNING: Word document container could not be initialized. Reason: The document is too old - Word 95 or older. Try HWPFOldDocument instead?
+2022-04-21 21:02:01.645 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromDoc
+WARNING: Word document container could not be initialized. Reason: The document is too old - Word 95 or older. Try HWPFOldDocument instead?
+2022-04-21 21:02:03.508 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Android Analyzer (aLEAPP) analysis of C1Prj03.E01 finished
+2022-04-21 21:02:03.508 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: DJI Drone Analyzer analysis of C1Prj03.E01 starting
+2022-04-21 21:02:03.513 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: DJI Drone Analyzer analysis of C1Prj03.E01 finished
+2022-04-21 21:02:03.514 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Plaso analysis of C1Prj03.E01 starting
+2022-04-21 21:02:03.516 org.sleuthkit.autopsy.modules.plaso.PlasoIngestModule process
+INFO: Starting Plaso Run.
+2022-04-21 21:02:04.937 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromDoc
+WARNING: Word document container could not be initialized. Reason: The document is too old - Word 95 or older. Try HWPFOldDocument instead?
+2022-04-21 21:03:01.882 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Plaso analysis of C1Prj03.E01 finished
+2022-04-21 21:03:01.883 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: iOS Analyzer (iLEAPP) analysis of C1Prj03.E01 starting
+2022-04-21 21:03:07.968 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractImagesFromXls
+WARNING: Excel (.xls) document container could not be initialized. Reason: The supplied spreadsheet seems to be Excel 5.0/7.0 (BIFF5) format. POI only supports BIFF8 format (from Excel versions 97/2000/XP/2003)
+2022-04-21 21:03:13.918 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: iOS Analyzer (iLEAPP) analysis of C1Prj03.E01 finished
+2022-04-21 21:03:18.877 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromDoc
+WARNING: Word document container could not be initialized. Reason: The document is too old - Word 95 or older. Try HWPFOldDocument instead?
+2022-04-21 21:03:49.776 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromDoc
+WARNING: Word document container could not be initialized. Reason: The document is too old - Word 95 or older. Try HWPFOldDocument instead?
+2022-04-21 21:03:50.048 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromDoc
+WARNING: Word document container could not be initialized. Reason: The document is too old - Word 95 or older. Try HWPFOldDocument instead?
+2022-04-21 21:03:51.007 org.sleuthkit.autopsy.ingest.IngestJobPipeline logInfoMessage
+INFO: Finished first stage analysis (data source = C1Prj03.E01, objId = 1, pipeline id = 1, ingest job id = 1)
+2022-04-21 21:03:51.026 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Keyword search ingest module instance 2 shutting down
+2022-04-21 21:03:51.845 org.sleuthkit.autopsy.centralrepository.ingestmodule.CentralRepoIngestModule shutDown
+INFO: 707 artifacts in db for case: C1Prj03 ds:C1Prj03.E01
+2022-04-21 21:03:51.865 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Keyword search ingest module instance 3 shutting down
+2022-04-21 21:03:51.865 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner endJob
+INFO: Commiting search index before final search for search job 1
+2022-04-21 21:03:59.105 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner doFinalSearch
+INFO: Starting final search for search job 1
+2022-04-21 21:03:59.105 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner doFinalSearch
+INFO: Checking for previous search for search job 1 before executing final search
+2022-04-21 21:03:59.105 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner doFinalSearch
+INFO: Kicking off final search for search job 1
+2022-04-21 21:03:59.105 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner doFinalSearch
+INFO: Waiting for final search for search job 1
+2022-04-21 21:04:01.78 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner$Searcher doInBackground
+INFO: Searcher took 2 secs to run (final = true)
+2022-04-21 21:04:01.781 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner$SearchJobInfo searchNotify
+INFO: Notifying after finishing search
+2022-04-21 21:04:01.781 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner doFinalSearch
+INFO: Final search for search job 1 completed
+2022-04-21 21:04:01.781 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner endJob
+INFO: No more search jobs. Stopping periodic search task
+2022-04-21 21:04:01.787 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Indexed files count: 1,613
+2022-04-21 21:04:01.789 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Indexed file chunks count: 3,020
+2022-04-21 21:04:01.79 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule postIndexSummary
+INFO: Keyword Indexing Completed: <table border=0><tr><td>Files with known types</td><td>138</td></tr><tr><td>Files with general strings extracted</td><td>1097</td></tr><tr><td>Metadata only was indexed</td><td>74</td></tr><tr><td>Error (indexer)</td><td>0</td></tr><tr><td>Error (text extraction)</td><td>0</td></tr><tr><td>Error (I/O)</td><td>0</td></tr></table>
+2022-04-21 21:04:01.795 org.sleuthkit.autopsy.centralrepository.ingestmodule.CentralRepoIngestModule shutDown
+INFO: 707 artifacts in db for case: C1Prj03 ds:C1Prj03.E01
+2022-04-21 21:04:01.796 org.sleuthkit.autopsy.ingest.IngestJobPipeline logInfoMessage
+INFO: Starting second stage ingest task pipelines for C1Prj03.E01 (objID=1, jobID=1) (data source = C1Prj03.E01, objId = 1, pipeline id = 1, ingest job id = 1)
+2022-04-21 21:04:01.797 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Data Source Integrity analysis of C1Prj03.E01 starting
+2022-04-21 21:04:01.799 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Total chunks = 3,968
+2022-04-21 21:04:01.799 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Starting hash verification of C1Prj03.E01
+2022-04-21 21:04:03.725 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Hash calculated from C1Prj03.E01: 2eb33bac5a97fffd9a962de6034d6466
+2022-04-21 21:04:03.725 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Hash calculated from C1Prj03.E01: 5b320d99bf510e94b51b83292ee6db2a2d550e3e
+2022-04-21 21:04:03.725 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule executeTask
+INFO: Data Source Integrity analysis of C1Prj03.E01 finished
+2022-04-21 21:04:03.726 org.sleuthkit.autopsy.ingest.IngestJobPipeline logInfoMessage
+INFO: Finished all tasks (data source = C1Prj03.E01, objId = 1, pipeline id = 1, ingest job id = 1)
+2022-04-21 21:04:03.732 org.sleuthkit.autopsy.ingest.IngestManager finishIngestJob
+INFO: Ingest job 1 completed
+2022-04-21 21:28:24.04 org.sleuthkit.autopsy.actions.DeleteFileContentTagAction$1 doInBackground
+INFO: Removing tag Bookmark from Tracking Bluebirds.xls
+2022-04-21 21:32:44.02 org.sleuthkit.autopsy.exceptions.AutopsyExceptionHandler publish
+SEVERE: Unexpected error: Error, Error loading PDF Document.
+2022-04-21 21:32:44.041 org.sleuthkit.autopsy.contentviewers.PDFViewer$1 done
+WARNING: PDF content viewer was unable to open document with id 11 and name note to TR.txt
+java.util.concurrent.ExecutionException: java.io.IOException
+	java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	javax.swing.SwingWorker.get(SwingWorker.java:602)
+	org.sleuthkit.autopsy.contentviewers.PDFViewer$1.done(PDFViewer.java:128)
+	javax.swing.SwingWorker$5.run(SwingWorker.java:737)
+	javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:832)
+	sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112)
+	javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:842)
+	javax.swing.Timer.fireActionPerformed(Timer.java:313)
+	javax.swing.Timer$DoPostEvent.run(Timer.java:245)
+	java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	java.awt.EventQueue.access$500(EventQueue.java:97)
+	java.awt.EventQueue$3.run(EventQueue.java:709)
+	java.awt.EventQueue$3.run(EventQueue.java:703)
+	java.security.AccessController.doPrivileged(Native Method)
+	java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+java.io.IOException
+	java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	javax.swing.SwingWorker.get(SwingWorker.java:602)
+	org.sleuthkit.autopsy.contentviewers.PDFViewer$1.done(PDFViewer.java:128)
+	javax.swing.SwingWorker$5.run(SwingWorker.java:737)
+	javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:832)
+	sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112)
+	javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:842)
+	javax.swing.Timer.fireActionPerformed(Timer.java:313)
+	javax.swing.Timer$DoPostEvent.run(Timer.java:245)
+	java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	java.awt.EventQueue.access$500(EventQueue.java:97)
+	java.awt.EventQueue$3.run(EventQueue.java:709)
+	java.awt.EventQueue$3.run(EventQueue.java:703)
+	java.security.AccessController.doPrivileged(Native Method)
+	java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2022-04-21 21:35:03.525 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Data Source Usage
+2022-04-21 21:35:03.526 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+WARNING: useDataTypeIcon: unhandled artifact type = Data Source Usage
+2022-04-21 21:35:03.53 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = EXIF Metadata
+2022-04-21 21:35:03.533 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Extension Mismatch Detected
+2022-04-21 21:35:03.536 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Keyword Hits
+2022-04-21 21:35:03.538 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Metadata
+2022-04-21 21:35:03.539 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Tagged Files
+2022-04-21 21:35:03.54 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Tagged Images
+2022-04-21 21:35:03.541 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Tagged Results
+2022-04-21 21:35:03.542 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = User Content Suspected
