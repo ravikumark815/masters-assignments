@@ -1,2 +1,0 @@
-2022-04-21 21:02:59,053 [WARNING] (MainProcess) PID:5216 <psort_tool> Appending to an already existing storage file.
-2022-04-21 21:02:59,233 [WARNING] (MainProcess) PID:5216 <knowledge_base> Unsupported time zone: PST, defaulting to UTC
