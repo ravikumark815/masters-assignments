@@ -1,0 +1,25 @@
+Create a list of about 2 well-known software applications(example, Facebook, LinkedIn, Amazon, Netflix etc) that you actively use, and identify the patterns in accordance with learned SW Architectural styles. 
+
+Part #1 
+
+1) Give a short description of the application and draw a C4 Context diagram showing the systems used. 
+2) Pick up any one system of your choice and draw a C4 container diagram
+3) List out the technology stack used for the containers
+
+Part #2
+
+Pick out the following patterns from the container diagram and show them separately
+
+1) Pipes-and-filters architecture
+2) Client-server (2-tier or 3-tier)
+3) Plug-in (or) Microkernel architecture
+
+
+Please Upload PDF document that contains your answers along with the diagrams
+
+Please Note: 
+We will not evaluate your answers if you copy-paste. 
+
+
+Total marks: 15
+Last date of submission: Oct 31st, 2021
